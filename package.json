@@ -1,6 +1,6 @@
 {
   "name": "udemy-react",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "node-sass": "^4.13.1",
@@ -41,5 +41,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blaise2s/udemy-react.git"
+  },
+  "author": "Blaise Schaeffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blaise2s/udemy-react/issues"
+  },
+  "homepage": "https://github.com/blaise2s/udemy-react#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
